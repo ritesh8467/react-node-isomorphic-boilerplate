@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/fontello.css")
+  body(itemscope, itemtype="http://schema.org/Blog")
+    script !{page_data}
+    block content
+    link(rel='stylesheet', href='/stylesheets/app.css')
+    !{tracking}
+    script(src='/react/main.js' type='text/javascript' defer)
+    script(src='/tinymce.min.js' type='text/javascript' defer)

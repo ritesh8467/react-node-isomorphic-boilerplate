@@ -1,0 +1,7 @@
+public
+node_modules
+.idea/
+.DS_Store
+*/**/.DS_Store
+server/config/knexfile.js
+server/config/app_config.js

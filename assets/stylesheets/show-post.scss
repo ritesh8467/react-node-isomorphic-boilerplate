@@ -1,0 +1,34 @@
+@import 'basics';
+
+.show-post{
+	.title{
+		font-size: 30px;
+		text-align: center;
+		margin: 20px 0px 20px 0px;
+		font-weight: bold;
+	}
+	.post-date{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.content{
+		line-height: 34px;
+		font-size: 20px;
+		max-width: 940px;
+		margin: 0px auto;
+		padding: 20px;
+	}
+	.user-details{
+		text-align: center;
+		cursor: pointer;
+	}
+	.user-image{
+		border-radius: 25px;
+		display: inline-block;
+		vertical-align: middle;
+		height: 30px;
+	}
+	.user-name{
+		margin-left: 10px;
+	}
+}
